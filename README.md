@@ -1,5 +1,7 @@
 # Limnologen Hus 6 — physics-informed environmental normalization of modal frequencies
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23122001.svg)](https://doi.org/10.5281/zenodo.23122001)
+
 Code, results and processed data accompanying
 
 > C. Amaddeo, A. R. Barbosa, R. W. Karlsson, M. Dorn, *Physics-informed machine learning with environmental effects lag for structural health monitoring of mass timber buildings*, submitted to Mechanical Systems and Signal Processing (2026). (Reference to be updated on acceptance.)
@@ -49,4 +51,4 @@ Python, with `emcee` (Level 1), `NumPyro`/`JAX` (Level 2) and `tinygp` (Level 3)
 
 ## Licence and citation
 
-Code: MIT License (see `LICENSE`). Processed data: see `data/README.md`. Releases are archived on Zenodo. Please cite the paper and the Zenodo record (see `CITATION.cff`) when using the code or data.
+Code: MIT License (see `LICENSE`). Processed data: see `data/README.md`. Release v1.0.1 is archived on Zenodo (https://doi.org/10.5281/zenodo.23122001). Please cite the paper and the Zenodo record (see `CITATION.cff`) when using the code or data.

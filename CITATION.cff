@@ -15,6 +15,7 @@ version: 1.0.1
 date-released: 2026-10-03
 license: MIT
 repository-code: "https://github.com/arbarbosa/limnologen-piml"
+doi: 10.5281/zenodo.23122001
 preferred-citation:
   type: article
   title: "Physics-informed machine learning with environmental effects lag for structural health monitoring of mass timber buildings"
