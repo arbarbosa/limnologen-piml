@@ -1,0 +1,26 @@
+# ── Core scientific stack ──────────────────────────────────────────────────────
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+
+# ── Machine learning (supervised + unsupervised) ───────────────────────────────
+scikit-learn>=1.3    # GMM, PCA, Mahalanobis, outlier detection, regression, etc.
+
+# ── Bayesian / probabilistic modeling ─────────────────────────────────────────
+numpyro>=0.13        # Level 2: NUTS sampler
+jax>=0.4             # backend for numpyro and tinygp
+tinygp>=0.3.0        # Level 3: Gaussian-process residual layer
+emcee                # Level 1: affine-invariant ensemble sampler
+
+
+# ── Jupyter / notebook support ────────────────────────────────────────────────
+jupyterlab>=4.0
+ipykernel            # registers the environment as a Jupyter kernel
+
+# ── Extras ────────────────────────────────────────────────────────────────────
+arviz>=0.17          # posterior diagnostics
+statsmodels>=0.14    # OLS / partial correlations / time-series utilities
+tqdm                 # progress bars for sweep loops
+pillow               # image handling in the figure scripts

@@ -1,0 +1,44 @@
+{
+ "equiv_uniform_pct": {
+  "3": 0.7409718831274725,
+  "5": 1.2550238009194525,
+  "15": 4.097693334559571
+ },
+ "band_center_pct": 0.06579791592116585,
+ "band_halfwidth_2sd_pct": 0.7110666015496089,
+ "sd_rolling_train": 0.20482015414115742,
+ "sd_rolling_val": 0.5082128874997681,
+ "false_alarm_rate_rolling_val_trainband": 0.1499312242090784,
+ "single_record_2sd_pct": 2.028421244269112,
+ "false_alarm_rate_rolling_val": 0.016506189821182942,
+ "false_alarm_rate_single_val": 0.04126547455295736,
+ "val_offset_of_undamaged_rolling_pct": 0.08227001179636939,
+ "resid_rmse_val_noburst_mHz": 14.309868004393788,
+ "detection_50pct_rolling": 0.7941176470588236,
+ "detection_95pct_rolling": 1.8848739495798321,
+ "detection_50pct_single": 2.281512605042017,
+ "detection_95pct_single": 4.215126050420168,
+ "scenarios": {
+  "3": {
+   "equiv_uniform_pct": 0.7409718831274725,
+   "first_detection": "2026-01-18",
+   "delay_days": 3.0,
+   "frac_below_band_after_30d": 0.14127423822714683,
+   "mean_estimate_after_30d": -0.21823755072596956
+  },
+  "5": {
+   "equiv_uniform_pct": 1.2550238009194525,
+   "first_detection": "2026-01-17",
+   "delay_days": 2.0,
+   "frac_below_band_after_30d": 0.6094182825484764,
+   "mean_estimate_after_30d": -0.7322894685179496
+  },
+  "15": {
+   "equiv_uniform_pct": 4.097693334559571,
+   "first_detection": "2026-01-15",
+   "delay_days": 0.0,
+   "frac_below_band_after_30d": 1.0,
+   "mean_estimate_after_30d": -3.5749590021580677
+  }
+ }
+}

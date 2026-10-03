@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Raw measurement data (not distributed; see data/README.md)
+data/raw/
+*.mat
+*.wdd
+
+# Run diagnostics written by the scripts (logs contain machine-specific paths)
+*run_log.txt
+*_decision.md
+*sanity*.md
+aux/pipeline_status.md
+
+# Regenerated outputs (tracked results live in aux/, paper figures in figures/)
+output/
+analysis/output/
+*_preHHfix_backup.csv
+
+# LaTeX build artefacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

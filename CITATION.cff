@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this repository."
+title: "Limnologen Hus 6 PIML: physics-informed environmental normalization of modal frequencies of a CLT building"
+type: software
+authors:
+  - family-names: Amaddeo
+    given-names: Carmen
+  - family-names: Barbosa
+    given-names: Andre R.
+  - family-names: Karlsson
+    given-names: Robin W.
+  - family-names: Dorn
+    given-names: Michael
+version: 1.0.1
+date-released: 2026-10-03
+license: MIT
+repository-code: "https://github.com/arbarbosa/limnologen-piml"
+preferred-citation:
+  type: article
+  title: "Physics-informed machine learning with environmental effects lag for structural health monitoring of mass timber buildings"
+  authors:
+    - family-names: Amaddeo
+      given-names: Carmen
+    - family-names: Barbosa
+      given-names: Andre R.
+    - family-names: Karlsson
+      given-names: Robin W.
+    - family-names: Dorn
+      given-names: Michael
+  journal: "Mechanical Systems and Signal Processing"
+  year: 2026
